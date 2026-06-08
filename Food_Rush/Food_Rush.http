@@ -1,0 +1,6 @@
+@Food_Rush_HostAddress = http://localhost:5018
+
+GET {{Food_Rush_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

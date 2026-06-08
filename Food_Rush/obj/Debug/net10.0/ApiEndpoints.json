@@ -1,0 +1,166 @@
+[
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "GetAll",
+    "RelativePath": "api/pedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "Create",
+    "RelativePath": "api/pedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Food_Rush.Pedidos.DTOs.CriarPedidoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "GetById",
+    "RelativePath": "api/pedidos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "Cancel",
+    "RelativePath": "api/pedidos/{id}/cancelar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/pedidos/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Pedidos.Controllers.PedidoController",
+    "Method": "GetByRestauranteId",
+    "RelativePath": "api/pedidos/restaurante/{restauranteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restauranteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Restaurantes.Controllers.RestauranteController",
+    "Method": "GetAll",
+    "RelativePath": "api/restaurantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Restaurantes.Controllers.RestauranteController",
+    "Method": "Create",
+    "RelativePath": "api/restaurantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Food_Rush.Restaurantes.DTOs.CriarRestauranteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Restaurantes.Controllers.RestauranteController",
+    "Method": "GetById",
+    "RelativePath": "api/restaurantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Restaurantes.Controllers.RestauranteController",
+    "Method": "GetCardapio",
+    "RelativePath": "api/restaurantes/{id}/cardapio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Rush.Restaurantes.Controllers.RestauranteController",
+    "Method": "AddItemCardapio",
+    "RelativePath": "api/restaurantes/cardapio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Food_Rush.Restaurantes.DTOs.CriarItemCardapioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
